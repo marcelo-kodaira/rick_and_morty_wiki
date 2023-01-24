@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import api from "../../services/api"
 import { StyledSearch } from "./styled";
+import {FaSearch} from "react-icons/fa"
 
 const Filter = ({setFound, setNotFound, characters}) =>{
 
@@ -54,7 +55,7 @@ const Filter = ({setFound, setNotFound, characters}) =>{
         return (
           <StyledSearch>
             <input id="search" type="text"  onChange={(e) => handleFilter(e)} placeholder=" "/>
-            <label htmlFor="search">Buscar personagem ...</label>
+            <label htmlFor="search"><FaSearch size={20}/> Buscar personagem</label>
           </StyledSearch>
         );
       }
