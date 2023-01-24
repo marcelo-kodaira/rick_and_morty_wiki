@@ -13,7 +13,9 @@ export const StyledSearch = styled.div`
         background: transparent;
 
         height: 80%;
-        width: 30%;
+        width: 300px;
+
+        font-size: 1.4rem;
         
         outline: none;
         border: 0;
@@ -37,14 +39,11 @@ export const StyledSearch = styled.div`
         color: white;
         position: absolute;
         left: 0;
-        font-size: 3rem;
+        font-size: 1.5rem;
         line-height: 1rem;
         transform-origin: 0 0;
         transition: transform 0.1s ease-in-out;
 
-        @media(max-width:1250px){
-            font-size: 1.5rem;
-        }
     }
 
     
