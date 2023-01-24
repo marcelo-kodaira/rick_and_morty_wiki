@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledSearch = styled.div`
+export const StyledSearch = styled.form`
     height: 40px;
     position: relative;
     background-color: #272B33;
@@ -29,6 +29,10 @@ export const StyledSearch = styled.div`
 
         @media(max-width:1250px){
             width: 250px;
+        }
+
+        button{
+            display: hidden;
         }
 
 

@@ -62,7 +62,7 @@ export const StyledError = styled.p`
     }
 `
 
-export const StyledPagination = styled.div`
+export const StyledPagination = styled.section`
     background-color: #272B33;
 
     div{

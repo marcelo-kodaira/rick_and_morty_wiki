@@ -51,7 +51,9 @@ const Filter = ({setFound, setNotFound, characters}) =>{
               }
             }
           }
-      
+
+
+  
         return (
           <StyledSearch>
             <input id="search" type="text"  onChange={(e) => handleFilter(e)} placeholder=" "/>

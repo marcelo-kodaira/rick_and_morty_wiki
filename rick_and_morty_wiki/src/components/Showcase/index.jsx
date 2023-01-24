@@ -55,10 +55,13 @@ const Showcase = () =>{
                     <button
                     disabled={prev}
                     onClick={() => setPage(page - 1)}
+                    type="button"
                     >Prev</button>
                     <button
                     disabled={next}
-                    onClick={()=> setPage(page + 1)}>Next</button>
+                    onClick={()=> setPage(page + 1)}
+                    type="button"
+                    >Next</button>
                 </div>
             </StyledPagination>
 
@@ -81,7 +84,7 @@ const Showcase = () =>{
                         )
                 
                     }
-                    
+
                     {
                         !notFound && found.map(({index, name, image, id }) =>
                         <Character key={id} name={name} image={image} setDetails={id} id={id} onClick={() => getDetails(id)}/>

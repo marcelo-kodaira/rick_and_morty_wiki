@@ -21,19 +21,19 @@ export const StyledCharacter = styled.li`
         width: 80%;
     }
 
-    &:hover{
-        border: 2px solid orange;
-        transform: scale(1.1);
-    }
+        &:hover{
+            border: 2px solid orange;
+            transform: scale(1.1);
+        }
 
-    img{
-        width: 100%;
-        height: 70%;
-    }
+        img{
+            width: 100%;
+            height: 70%;
+        }
 
-    h2{
-       padding-top: 1rem;
-    }
+        h2{
+        padding-top: 1rem;
+        }
 
 
 `
